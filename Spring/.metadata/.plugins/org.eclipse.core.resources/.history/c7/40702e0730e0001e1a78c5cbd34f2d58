@@ -1,0 +1,15 @@
+package org.jsp.spring_boot_user_crud_app.repository;
+
+import java.util.Optional;
+
+import org.jsp.spring_boot_user_crud_app.dto.UserDetails;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserDetails_Repository extends JpaRepository<UserDetails, Integer>{
+	UserDetails save(UserDetails user);
+	
+	Optional<UserDetails> findById(int id);
+	
+	UserDetails update(UserDetails user);
+
+}

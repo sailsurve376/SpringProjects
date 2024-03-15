@@ -1,0 +1,21 @@
+package org.jsp.spring_boot_user_crud_app.dao;
+
+import org.jsp.spring_boot_user_crud_app.dto.UserDetails;
+import org.jsp.spring_boot_user_crud_app.repository.UserDetails_Repository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+@Repository
+public class UserDetails_Dao {
+	@Autowired
+	private UserDetails_Repository repository;
+	
+//	public void saveUser(UserDetails user)
+//	{
+//		repository.save(user);
+//	}
+	
+	public UserDetails saveUser(UserDetails user)
+	{
+		return repository.save(user);
+	}
+}

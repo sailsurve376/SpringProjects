@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring_component_container&apos; to &apos;spring_ioc_annotation_container&apos;" description="Rename resource &apos;spring_component_container&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/spring_component_container" name="spring_ioc_annotation_container" stamp="1709010733923" updateReferences="true"/>
+</session>
